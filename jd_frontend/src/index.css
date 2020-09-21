@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e6e7ee;
+  color: #444764;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  margin-top: 50px;
+  padding: 10px;
+  position: absolute;
+  width: 100%; 
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+  border-radius: 8px;
+}
+
+.card_body{
+position: absolute;
+margin-top: 130px;
+width: 100%; 
+padding: 10px;
+box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+border-radius: 8px;
+}
+
+.table_section{
+  margin: 15px 80px;
+}
+
+.table thead th {
+ padding: 12px 24px;
+}
+.table tbody td {
+ padding: 12px 24px;
+}
+
+.addProduct_button{
+  margin-left: 70px;
+}
+
+.btn-primary{
+  background-color: #fff;
+}
+
+.btn-primary:hover{
+  color: #444764;
+  background-color: #fff;
+  border: none;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+  color: #444764;
+  background-color: #fff;
+  border: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+}
+
+.modal-body{
+  background: #e6e7ee;
+  color: #444764;
+}
+
+.addButton{
+  min-width: 130px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: #444764;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+}
+
+.editButton{
+  min-width: 70px;
+  padding: 5px;
+  margin: 0px 5px;
+  color: #444764;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  box-shadow: 6px 6px 12px #b8b9be;
+}
+
+.deleteButton{
+  min-width: 70px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: #444764;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  box-shadow: 6px 6px 12px #b8b9be;
+}
+.page-link {
+  color: #444764;
+}
+.page-link:hover {
+  color: #444764;
+  border: 1px solid #dee2e6;
+}
+.page-link:focus {
+  color: #444764;
+  border: 1px solid #dee2e6;
+}
+.pagination{
+  margin-left: 790px;
+}
+
+.responsive{
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+}
+
